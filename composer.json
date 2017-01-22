@@ -1,0 +1,16 @@
+{
+    "name": "yunhack/wormhole",
+    "description": "爬虫组件",
+    "keywords": ["crawler", "php"],
+    "license": "MIT",
+    "homepage": "http://www.yunhack.com/wormhole",
+    "require": {
+        "php": ">=5.5.9",
+        "ext-mbstring": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WormHole\\": "src/WormHole"
+        }
+    }
+}
