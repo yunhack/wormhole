@@ -1,16 +1,17 @@
 {
     "name": "yunhack/wormhole",
-    "description": "爬虫组件",
+    "description": "PHP爬虫框架",
     "keywords": ["crawler", "php"],
     "license": "MIT",
     "homepage": "http://www.yunhack.com/wormhole",
+    "type": "project",
     "require": {
-        "php": ">=5.5.9",
-        "ext-mbstring": "*"
+        "guzzle/guzzle": "6.2.2",
+        "slim/pdo": "1.10"
     },
     "autoload": {
         "psr-4": {
-            "WormHole\\": "src/WormHole"
+            "App\\": "app"
         }
     }
 }
